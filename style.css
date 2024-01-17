@@ -1,0 +1,10 @@
+.heading1{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 7%;
+
+}
+body{
+    background-image:linear-gradient(to left,#141e30,#243b55);
+}
