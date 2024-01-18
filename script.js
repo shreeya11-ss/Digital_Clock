@@ -8,8 +8,8 @@ const showtime = () =>{
     let min=date.getMinutes();
     let sec=date.getSeconds();
 
-    let ampm=hr>12?"PM":"AM";
-    hr=hr%12||12;
+    let ampm=hr>12?"PM":"AM";  
+    hr=hr%12||12;           //12hour time format
     hr=hr<10 ? `0${hr}`:hr;
     min=min<10 ? `0${min}`:min;
     sec=sec<10 ? `0${sec}`:sec;
