@@ -44,6 +44,21 @@ body{
     margin-left: 8px;
 
 }
+@media screen and (max-width:768px){
+    .heading1{
+        font-size: 3rem;
+        
+    }
+    .clock{
+        font-size: 4rem;
+        height: 8rem;
+    }
+    .clock span{
+        font-size: 1.5rem;
+        margin-bottom:30px ;
+    }
+}
+
 
 
 
