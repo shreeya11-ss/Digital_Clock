@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .heading1{
     font-size: 5rem;
     text-align: center;
@@ -5,6 +10,40 @@
     margin-top: 7%;
 
 }
-body{
-    background-image:linear-gradient(to left,#141e30,#243b55);
+ @keyframes color{
+    0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
 }
+body{
+    height: 100vh;
+    animation: color 15s linear infinite;
+    background:linear-gradient(-45deg,#242f49, #384358, #651a2b, #10182a, #3e0713);
+    background-size: 400% 400%;
+   
+} 
+.clock{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-size: 7rem;
+
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1),0px 10px 20px rgba(0,0,0,0.7);
+    height: 10rem;
+    max-width: 700px;
+    margin:auto;
+    margin-top: 10%;
+    border-radius: 15px;
+    
+}
+.clock span{
+    font-size:2rem;
+    margin-bottom: 50px;
+    margin-left: 8px;
+
+}
+
+
+
